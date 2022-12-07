@@ -13,4 +13,4 @@ def muliples_of_ten(z):
 def powers_of_ten(w):
     name_list=["hundred","thousand","lakhs","crores"]
 
-number=int(input())
+number=input()
