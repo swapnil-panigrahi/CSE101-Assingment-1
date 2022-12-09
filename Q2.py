@@ -1,4 +1,5 @@
 optimal_solution=[]                                                                    #list of corner points of the feasible region
+M=int(input("Enter value of 'M'"))
 
 for x in range(min(400//8,120//2)+1):                                                  #checking the linear equations for all x in [0, corner point where y=0]
     y1=(400-8*x)//2
