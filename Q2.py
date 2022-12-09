@@ -12,6 +12,9 @@ for x in range(min(400//8,120//2)+1):                                           
         elif x<=M and min(y1,y2)>M:
             profit=90*x+30*(min(y1,y2)-M)+25*M
         
+        elif x>M and min(y1,y2)<=M:
+            profit=100*(x-M)+90*M+25*min(y1,y2)
+            
         else:
             profit=90*x+25*min(y1,y2)                                   
 
