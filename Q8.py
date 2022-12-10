@@ -1,17 +1,17 @@
-def sum(x):
+def sum(x):                                                                     #defining sum since we aren't allowed to use in-built list functions 
     sum=0
     for i in x:
         sum+=i
     return sum
 
-pop = [50, 1450, 1400, 1700, 1500, 600, 1200]
-grate=[2.5,2.1,1.7,1.3,0.9,0.5,0.1]
+pop = [50, 1450, 1400, 1700, 1500, 600, 1200]                                   #population of all 7 groups
+grate=[2.5,2.1,1.7,1.3,0.9,0.5,0.1]                                             #growth rate of all 7 groups
 
 y=int(input("Enter the number of years: "))
 
-population_n=0
+population_n=0                                                                  #population of next year initiating as 0
 current_pop=0
-max_pop=0
+max_pop=0                                                                       #variable to store maximum population once achieved
 n=0
 
 for i in range(y):
