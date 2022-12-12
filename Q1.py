@@ -28,8 +28,13 @@ def two_digit_numbers(u):
 
 number=input()
 number_name=[]
-i=0
 
+for j in number:
+    if j!='0':
+        number=number[number.index(j):]
+        break
+        
+i=0
 while i<len(number):
     if len(number)==1:
         number_name.append(digit_names(int(number)-1))
