@@ -16,7 +16,7 @@ def powers_of_ten(w):
 
 def two_digit_numbers(u):
     if u==0:
-        pass
+        return ""
     elif u>0 and u<=9:
         return digit_names(u-1)
     elif u>=11 and u<20:
@@ -59,7 +59,10 @@ while i<len(number):
         elif i==2 and not int(number[-i-1]):
             i+=1
             continue
-        elif len(number)>=i+2:
+        elif len(number)>=i+2 and not int(number[-i-2:-i]):
+            i+=2
+            continue
+        elif len(number)>=i+2 and int(number[-i-2:-i]):
             number_name.append(two_digit_numbers(int(number[-i-2:-i]))+" "+powers_of_ten(i+1))
             i+=2
         else:
