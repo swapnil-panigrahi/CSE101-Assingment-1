@@ -32,12 +32,10 @@ i=0
 
 while i<len(number):
     if len(number)==1:
-        digit_names(int(number))
+        number_name.append(digit_names(int(number)-1))
+        break
     elif int(number)>10 and int(number)<20:
         number_name.append(two_digit_names(int(number)))
-        break
-    elif int(number)==0:
-        number_name.append("Zero")
         break
     else:
         if i==0 and number[-2]=='1':
