@@ -33,4 +33,7 @@ for i in range(y):
         max_pop=population_n
 
 else:
-    print("Maximum population:",round(max_pop,3),"million","\nPopulation will reach it's maximum after "+str(max_year)+" years")
+    if max_year<13:
+        print("Population hasn't maxxed out yet")
+    else:
+        print("Maximum population:",round(max_pop,3),"million","\nPopulation will reach it's maximum after "+str(max_year)+" years")
