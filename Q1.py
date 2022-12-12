@@ -1,6 +1,6 @@
 def digit_names(x):
-    name_list=["One","Two","three","four","five","six","seven","eight","nine"]
-    return name_list[x]
+    name_list=["Zero","One","Two","three","four","five","six","seven","eight","nine"]
+    return name_list[x+1]
 
 def two_digit_names(y):
     name_list=["eleven","twelve","thirteen","fourteen","fifteen","sixteen","seventeen","eigthteen","nineteen"]
@@ -31,7 +31,9 @@ number_name=[]
 i=0
 
 while i<len(number):
-    if int(number)>10 and int(number)<20:
+    if len(number)==1:
+        digit_names(int(number))
+    elif int(number)>10 and int(number)<20:
         number_name.append(two_digit_names(int(number)))
         break
     elif int(number)==0:
