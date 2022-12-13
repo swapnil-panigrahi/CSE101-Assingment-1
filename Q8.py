@@ -7,18 +7,16 @@ def sum(x):                                                                     
 pop = [50, 1450, 1400, 1700, 1500, 600, 1200]                                   #population of all 7 groups
 grate=[2.5,2.1,1.7,1.3,0.9,0.5,0.1]                                             #growth rate of all 7 groups
 
-y=int(input("Enter the number of years: "))
-
 population_n=0                                                                  #population of next year initiating as 0
 current_pop=0
 max_pop=0                                                                       #variable to store maximum population once achieved
 n=0
 
-for i in range(y):
+print("Current Population:", sum(pop),"million")
+
+while current_pop<=population_n:
     current_pop=sum(pop)
     n+=1
-    
-    print("Population in year "+str(n)+":",round(current_pop,3),"million")
     
     for i in range(7):
         pop[i]=pop[i]*(1+grate[i]/100)
@@ -33,7 +31,4 @@ for i in range(y):
         max_pop=population_n
 
 else:
-    if max_year<13:
-        print("Population hasn't maxxed out yet")
-    else:
-        print("Maximum population:",round(max_pop,3),"million","\nPopulation will reach it's maximum after "+str(max_year)+" years")
+    print("Maximum population:",round(max_pop,3),"million","\nPopulation will reach it's maximum after "+str(max_year)+" years")
