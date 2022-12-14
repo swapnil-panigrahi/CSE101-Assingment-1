@@ -21,4 +21,4 @@ def bonus(cost,allowance,r):
     
     return sf
 
-print(bonus(cost,allowance,r))
+print("Saving fractions should be:",bonus(cost,allowance,r))
