@@ -1,5 +1,5 @@
 optimal_solution=[]                                                                    #list of corner points of the feasible region
-M=int(input("Enter value of 'M'"))
+M=int(input("Enter value of 'M': "))
 
 for x in range(min(400//8,120//2)+1):                                                  #checking the linear equations for all x in [0, corner point where y=0]
     y1=(400-8*x)//2
@@ -8,7 +8,7 @@ for x in range(min(400//8,120//2)+1):                                           
     if y1==y2 or min(y1,y2)==0 or x==0:                                                #checking if optimal solutions are acquired for the given value of x and adding it to the list
         
         if x>M and min(y1,y2)>M:
-            profit=100*(x-M)+90*M+30*(min(y1,y2)-M)+25*M
+            profit=100*(x-M)+90*M+30*(min(y1,y2)-M)+25*M                               #checking for all cases of M
         
         elif x<=M and min(y1,y2)>M:
             profit=90*x+30*(min(y1,y2)-M)+25*M
