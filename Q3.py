@@ -7,7 +7,7 @@ distance_travelled=0
 
 while not distance<0:                                                       #Checking if distance is non-negative
     
-    if distance<=25:
+    if distance<=25:                                                        #Distance conditions as given
         y+=distance
     elif distance<=50:
         y-=distance
