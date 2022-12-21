@@ -1,4 +1,4 @@
-x0,y0=map(int,input("Enter coordinates: ").split())                         #Initial Coordinates
+x0,y0=map(int,input("Enter coordinates(x,y): ").split())                    #Initial Coordinates
 distance=float(input("Distance to travel: "))
 
 x=x0                                                                        #Variables which will act as final coordinates
@@ -21,6 +21,6 @@ while not distance<0:                                                       #Che
 
 displacement=((x-x0)**2+(y-y0)**2)**0.5                                     #Calculating displacement using distance formula
 
-print("Final coordinates: ("+str(x)+","+str(y)+",")
+print("Final coordinates: ("+str(x)+","+str(y)+")")
 print("Distance travelled:",distance_travelled)
 print("Straight line distance:",displacement)
