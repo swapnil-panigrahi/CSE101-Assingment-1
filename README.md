@@ -14,7 +14,7 @@ Two variable optimization. Many problems require optimization of some function â
 A furniture company manufactures dining room tables and chairs. The relevant manufacturing data are given in the table
 
  | Department | Labor-Hours per Tables | Labor-hrs per Chairs | Maximum Labor-Hours | Available/day |
-  ------------ ------------------------ ---------------------- -------------------------------------
+ |------------|------------------------| ---------------------| ------------------------------------|
  | Assembly | 8 | 2 | 400 |
  |Finishing | 2 | 1 | 120 |
  |Profit per Unit | $90 for first M units, $100 after that |$25 for first M units, $30 after that|
