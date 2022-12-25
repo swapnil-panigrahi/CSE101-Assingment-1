@@ -12,6 +12,7 @@
 Two variable optimization. Many problems require optimization of some function – minimizing (e.g., loss) or maximizing (e.g., profit) given some function and some constraints. This is an example of this problem.
 
 A furniture company manufactures dining room tables and chairs. The relevant manufacturing data are given in the table
+
  | Department | Labor-Hours per Tables | Labor-hrs per Chairs | Maximum Labor-Hours | Available/day |
   ------------ ------------------------ ---------------------- -------------------------------------
  | Assembly | 8 | 2 | 400 |
