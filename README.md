@@ -14,10 +14,10 @@ Two variable optimization. Many problems require optimization of some function â
 A furniture company manufactures dining room tables and chairs. The relevant manufacturing data are given in the table
 
 | Department | Labor-Hours per Tables | Labor-hrs per Chairs | Maximum Labor-Hours | Available/day |
-|------------|------------------------| ---------------------| ------------------------------------|
+| ---------- | ---------------------- | -------------------- | ----------------------------------- |
 | Assembly | 8 | 2 | 400 |
-|Finishing | 2 | 1 | 120 |
-|Profit per Unit | $90 for first M units, $100 after that |$25 for first M units, $30 after that|
+| Finishing | 2 | 1 | 120 |
+| Profit per Unit | $90 for first M units, $100 after that | $25 for first M units, $30 after that |
 
 
 Write a program to determine how many tables and chairs should be manufactured each day to realize a maximum profit. Print the number of chairs, tables, and the maximum profit. Initially have M = 10. Run the program again for M = 0, 20 and see how the output changes. Keep the code to compute this simple (even if it is inefficient), and you do not have to optimize the code.
