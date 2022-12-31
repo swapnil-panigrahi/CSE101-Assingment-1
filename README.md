@@ -74,7 +74,8 @@ In the program, you can loop over this list, but you cannot use any list functio
 ## 9. Economics
 The demand for an item in the market (in terms of the number of items) decreases as the price (p) of the items increases. On the other hand, the supply of the item increases as the price increases (as producers expect to make more profit). Suppose the demand and supply changes as follows with price:
  
-Demand function, D is:  ln D(p) = a - b\*p  (i.e. D(p) is e to the power of rhs)\\
+Demand function, D is:  ln D(p) = a - b\*p  (i.e. D(p) is e to the power of rhs)
+
 Supply function, S is: ln S(p) = c + d*p 
 
 An equilibrium is achieved when demand and supply match (approximately) - this is a basic economics theory. Determine at what price an equilibrium will be reached, and output the equilibrium price and the number of items produced/bought at this equilibrium. Given a minimum 	price, find at what price an equilibrium is found, if it exists. (If no solution is possible - print that.) Iterate by starting with the minimum price and increasing the price by 5% every time (so your equilibrium will not be precise), to find the equilibrium. Your program should print the equilibrium price, and the demand and supply at that price. For this take a, b, c, d as 10, 1.05, 1, 1.06.  You can assume that the minimum price as 1.0.
