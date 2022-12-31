@@ -74,7 +74,7 @@ In the program, you can loop over this list, but you cannot use any list functio
 ## 9. Economics
 The demand for an item in the market (in terms of the number of items) decreases as the price (p) of the items increases. On the other hand, the supply of the item increases as the price increases (as producers expect to make more profit). Suppose the demand and supply changes as follows with price:
  
-```Demand function, D is:  ln D(p) = a - b\*p```
+```Demand function, D is:  ln D(p) = a - b*p```
 ```Supply function, S is: ln S(p) = c + d*p ```
 
 An equilibrium is achieved when demand and supply match (approximately) - this is a basic economics theory. Determine at what price an equilibrium will be reached, and output the equilibrium price and the number of items produced/bought at this equilibrium. Given a minimum 	price, find at what price an equilibrium is found, if it exists. (If no solution is possible - print that.) Iterate by starting with the minimum price and increasing the price by 5% every time (so your equilibrium will not be precise), to find the equilibrium. Your program should print the equilibrium price, and the demand and supply at that price. For this take a, b, c, d as 10, 1.05, 1, 1.06.  You can assume that the minimum price as 1.0.
@@ -86,6 +86,6 @@ Write a program to computationally find a root of a given polynomial in x. Your 
 
 Your main program should ask for the value of x0 and then compute the root. Try with different values of x0 and see what root it finds – you will see that starting point can lead to different roots. As newton Raphson may not converge, or the polynomial may not have a root, after trying for some number iterations (say 100), your program should print a suitable message and quit.
 
-For the problem, use the polynomial: $$x^3 - 10.5*x^2 + 34.5*x - 35$$ (FYI, this one has 3 different roots)
+For the problem, use the polynomial: $$x^3 - 10.5\*x^2 + 34.5\*x - 35$$ (FYI, this one has 3 different roots)
 
 ~~Bonus problem: Given that the polynomial has n roots and a range x1 and x2 within which all the roots are, expand the root finding program to find all the roots between x1 and x2.~~
