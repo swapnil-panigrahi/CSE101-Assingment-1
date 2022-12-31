@@ -43,4 +43,13 @@ Your program has to take as input (from the user on the terminal) the angle (in 
  
 Note. For this question, you must write functions to compute sin(), cos(), … using the series for them and cannot use the python provided functions (e.g., in the math module). If the value of pi is needed, you can use the standard value (3.14). First, write these functions and test them. Then write the main program to take inputs for angle and distance, and call the functions to compute the height and distance.
 
-## 6. 
+## 6. V
+Write a function that takes a positive integer “n” as a parameter and prints the pattern of the type given below for n=7. Remember that print("*", end="") will not print the newline, and you can print() and can just print a new line. In the main program, take user input as n and call this function for printing.
+{
+    User Input = 5
+\*        *
+**      **
+\***    ***
+****  ****
+**********
+}
