@@ -45,11 +45,10 @@ Note. For this question, you must write functions to compute sin(), cos(), … u
 
 ## 6. V
 Write a function that takes a positive integer “n” as a parameter and prints the pattern of the type given below for n=7. Remember that print("*", end="") will not print the newline, and you can print() and can just print a new line. In the main program, take user input as n and call this function for printing.
-{
-    User Input = 5
-\*        *
+User Input = 5
+
+*        *
 **      **
-\***    ***
+***    ***
 ****  ****
 **********
-}
