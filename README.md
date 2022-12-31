@@ -88,4 +88,4 @@ Your main program should ask for the value of x0 and then compute the root. Try 
 
 For the problem, use the polynomial: $$x^3 - 10.5\*x^2 + 34.5\*x - 35$$ (FYI, this one has 3 different roots)
 
-~~Bonus problem: Given that the polynomial has n roots and a range x1 and x2 within which all the roots are, expand the root finding program to find all the roots between x1 and x2.~~
+>Bonus problem: Given that the polynomial has n roots and a range x1 and x2 within which all the roots are, expand the root finding program to find all the roots between x1 and x2.
