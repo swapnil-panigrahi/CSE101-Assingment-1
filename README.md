@@ -31,7 +31,7 @@ Distance traveled. A vehicle is to travel on demand. Its initial location is giv
 
 ## 4. Scuffed Integration
 Integration through computation. Suppose the velocity of a rocket at a time t is given by: 
-f(t) = 2000 $\ln{\frac{140000}{140000 - 2100*t}} - 9.8*t$
+f(t) = 2000 $\ln(\frac{140000}{140000 - 2100\*t}) - 9.8*t$
 Take as input starting time (a) and ending time (b), and find the distance covered by a rocket between time a and b. For computationally determining the distance, work with time increments (delta) of 0.25 seconds. You can use the math module of python for this problem.
 
 ~~Hint: Compute the velocity at time t and t+delta, take the average, and then compute the distance traveled in this delta time duration. Start from a and keep computing in increments of delta till b.~~
